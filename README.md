@@ -21,7 +21,7 @@ Este é um projeto de uma landing page para uma loja de tecnologia chamada **Tec
 
 1. Baixe ou clone o repositório:
    ```bash
-   git clone https://github.com/name-All4n/Tech-Smart-Store.git
+   https://github.com/name-All4n/Tech-Smart-Store.git
 
 2. Abra o arquivo index.html em um navegador.
 
