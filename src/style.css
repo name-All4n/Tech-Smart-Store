@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.logo img{
+    width: 150px;
+}
+
+header {
+    padding: 10px 3%;
+}
+
+header .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 60px;
+    font-size: 18px;
+    color: rgb(156, 156, 156);
+}
+
+main {
+    display: flex;
+}
+
+.secao1, .secao2{
+    padding: 100px 3% 0 3%;
+}
+
+.titulo {
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+
+.imagens {
+    display: flex;
+    align-items: center;
+    gap:20px
+}
+
+p {
+    width: 450px;
+    line-height: 17px;
+    padding-bottom: 20px;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(182, 182, 182);
+    width: max-content;
+    padding: 1.5rem .8rem;
+    height: 30px;
+    border-radius: .5rem;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.imagem1 {
+    width: 250px;
+}
+
+.imagem2 {
+    width: 400px;
+}
+
+.imagem3 {
+    width: 500px;
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+.imagem1:hover, .imagem2:hover {
+    transform: scale(1.1);
+}
+
+header, .titulo, .texto, .botao, img {
+    transition: .5s;
+}
+
+a:hover {
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.35);
+    transform: scale(1.05);
+}
+
+li:hover {
+    color: white;
+    transform: scale(1.05);
+    transition: .5s;
+    cursor: pointer;
+}
+
+@keyframes flutuar {
+    0% {
+        top:0;
+    }
+
+    100% {
+        top:30px;
+    }
+}
+
+header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    backdrop-filter: blur(5px); 
+    background: rgba(0, 0, 0, 0.6); 
+    z-index: 1000;
+}

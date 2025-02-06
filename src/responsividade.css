@@ -1,0 +1,53 @@
+@media screen and (max-width: 1150px) {
+    .logo img{
+        width: 80px;
+    }
+
+    .secao1, .secao2{
+        padding: 100px 5% 0 5%;
+    }
+
+    ul{
+        gap: 30px;
+        font-size: 15px;
+    }
+
+    .titulo {
+        font-size: 23px;
+        padding-top: 80px;
+    }
+
+    p {
+        width: 300px;
+        line-height: 20px;
+    }
+
+    .botao {
+        font-size: 12px;
+    }
+
+    .imagem1 {
+        width: 125px;
+    }
+
+    .imagem2 {
+        width: 230px;
+    }
+
+    .imagens {
+        gap: 0;
+    }
+
+    .imagem3 {
+        width: 300px;
+        padding-left: 35px;
+    }
+
+    .secao1, .secao2 {
+        padding: 0px 3% 0 5%;
+    }
+
+    main {
+        display:grid;
+    }
+}
